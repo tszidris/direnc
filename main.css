@@ -1,0 +1,113 @@
+body{
+    background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 21%, rgba(97, 22, 129, 1) 58%, rgba(63, 3, 142, 1) 92%);
+}
+.ort{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    text-align: center;
+}
+.ort2{
+    text-align: center;
+}
+.gradient-heading {
+    background: linear-gradient(to right, #eefaf3, #121f80);
+    
+    -webkit-background-clip: text;
+    
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.flex {
+    display: flex;
+}
+.white{
+    color: white;
+}
+.clr{
+    color: rgb(9, 163, 246);
+}
+.black{
+    color: black;
+}
+.mor{
+    color: rgb(79, 11, 79);
+}
+
+.p{
+    padding: 0;
+}
+
+.size{
+    width: 50px;
+    height: 30px;
+}
+.blue{
+    margin-top: 15px;
+    border-top: 3px solid rgb(79, 82, 149);
+    
+}
+
+#yan{
+    display: flex;
+    margin-left: 750px;
+    
+}
+
+.space{
+    margin-left: 30px;
+}
+
+button {
+
+    width: 9em;
+    position: relative;
+    height: 3em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+}
+
+button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+}
+
+button:hover::before,
+button:hover::after {
+    transform: scale(0)
+}
+
+button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+}
+
